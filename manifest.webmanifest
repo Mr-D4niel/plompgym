@@ -1,16 +1,29 @@
 {
-  "name": "Chalk training log",
-  "short_name": "Chalk",
-  "description": "Strength training log with RPE, e1RM and volume tracking",
+  "name": "Plompgym",
+  "short_name": "Plompgym",
+  "description": "Strength, WODs and rides in one log, with Garmin and a Google Drive backup",
   "start_url": "./#today",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#ECEEEB",
-  "theme_color": "#1B2430",
+  "background_color": "#0B1626",
+  "theme_color": "#0B1626",
   "icons": [
-    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
-    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
   ]
 }

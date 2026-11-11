@@ -1,7 +1,7 @@
-/* Chalk service worker: offline app shell + background backup.
+/* Plompgym service worker: offline app shell + background backup.
    Bump VERSION whenever you upload changed files; the app then offers a reload. */
-const VERSION = 'chalk-1.0.0';
-const SHELL = ['./', 'index.html', 'app.js', 'sync.js', 'style.css', 'vendor/chart.umd.js', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/maskable-512.png'];
+const VERSION = 'plompgym-2.0.0';
+const SHELL = ['./', 'index.html', 'app.js', 'sync.js', 'style.css', 'vendor/chart.umd.js', 'vendor/xlsx.full.min.js', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/maskable-512.png'];
 importScripts('sync.js');
 
 self.addEventListener('install', (e) => {
